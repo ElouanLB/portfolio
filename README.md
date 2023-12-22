@@ -9,8 +9,7 @@ Voici comment installer et lancer le projet vue-portfolio
 ## Project Setup
 
 ```sh
-npm create vue@latest
-```
+npm create vue@latest 
 
 ```sh
 npm install @emailjs/browser --save
@@ -19,6 +18,7 @@ npm install @emailjs/browser --save
 ```sh
 npm install sass
 ```
+
 
 ### Pour lancer le projet en local et développement
 
