@@ -20,8 +20,10 @@
             <a href="https://github.com/ElouanLB/projet-cv"><p>Lien GitHub !</p></a>
           </div>
         </Modal>
-      <h3>CV</h3>
-      <img class="creation-image" src="../assets/img/cv.JPG" alt="image de cv" @click="toggleModal1">
+      <div class="title-creations">
+        <h3>CV</h3>
+        <img class="creation-image" src="../assets/img/cv.JPG" alt="image de cv" @click="toggleModal1">
+      </div>
     </div>
     <div>
       <Modal @close="toggleModal2" :modalActive="modalActive2">
@@ -33,8 +35,10 @@
             <a href="https://github.com/ElouanLB/Dynamiser-un-espace-commentaire"><p>Lien GitHub !</p></a>
           </div>
         </Modal>
-      <h3>Dynamiser un espace commentaire</h3>
-      <img class="creation-image" src="../assets/img/Dynamiser un espace commentaire.JPG" alt="image de commentaire" @click="toggleModal2">
+      <div class="title-creations">
+        <h3>Dynamiser un espace commentaire</h3>
+        <img class="creation-image" src="../assets/img/Dynamiser un espace commentaire.JPG" alt="image de commentaire" @click="toggleModal2">
+      </div>
     </div>
     <div>
       <Modal @close="toggleModal3" :modalActive="modalActive3">
@@ -46,8 +50,10 @@
             
           </div>
         </Modal>
+      <div class="title-creations"> 
         <h3>Cahier des charges</h3>
-      <img class="creation-image" src="../assets/img/Cahier des charges.JPG" @click="toggleModal3">
+        <img class="creation-image" src="../assets/img/Cahier des charges.JPG" @click="toggleModal3">
+      </div>
     </div>
   </section>
   <section id="contact">
@@ -140,6 +146,10 @@ h2:hover {
 
 .creations {
   display: flex;
+}
+
+.title-creations:hover {
+  text-decoration: underline;
 }
 
 .modal-title {
