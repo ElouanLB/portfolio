@@ -20,7 +20,8 @@ npm install @emailjs/browser --save
 npm install sass
 ```
 
-
+### Détails
+Ne pas oublier de lancer en local les deux projets "cv" et "dynamiser un espace commentaire" pour pouvoir les voirs en cliquant sur les liens des modales
 
 ### Pour lancer le projet en local et développement
 
