@@ -27,7 +27,7 @@ export default {
   },
   methods: {
     envoyerEmail() {
-      // Vérifiez si tous les champs sont remplis
+      // Vérifiez si tous les champs sont remplis si non, alert ''Veuillez remplir tous les champs du formulaire avant d\'envoyer le message.' si oui envoie du form.
       if (this.firstName === '' || this.lastName === '' || this.message === '') {
         alert('Veuillez remplir tous les champs du formulaire avant d\'envoyer le message.');
       } else {

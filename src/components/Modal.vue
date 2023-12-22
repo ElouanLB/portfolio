@@ -16,6 +16,7 @@
 <script>
 export default {
   props: ["modalActive"],
+  // Setup pour fermer la modale.
   setup(props, { emit }) {
     const closeModal = () => {
       if (props.modalActive) {
