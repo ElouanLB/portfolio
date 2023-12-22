@@ -19,8 +19,14 @@ npm install @emailjs/browser --save
 npm install sass
 ```
 
+```sh
+npm install vue-router
+```
 
-### Pour lancer le projet en local et développement
+### Détails
+Ne pas oublier de lancer localement les projets afin de les voir en cliquant sur les liens dans les modales. Faute de back end.
+
+#### Pour lancer le projet en local et développement
 
 ```sh
 npm run dev
