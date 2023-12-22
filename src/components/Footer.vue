@@ -24,6 +24,7 @@ export default {
       lastUpdateDate: "01 janvier 2023",
     };
   },
+  // Méthode pour mettre à jour la date à chaque update.
   methods: {
     updateLastUpdateDate() {
       const currentDate = new Date().toLocaleDateString("fr-FR");
@@ -31,7 +32,7 @@ export default {
     },
   },
   mounted() {
-    // Appel de la méthode lors du montage du composant (peut varier en fonction de votre logique)
+    // Appel de la méthode lors du montage du composant.
     this.updateLastUpdateDate();
   },
 };

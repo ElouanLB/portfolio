@@ -10,6 +10,7 @@
   
   <section class="creation_modale">
     <div>
+      <!-- Appel du composant modale pour chaque modale, ne pas oublier d'appeler le 'setup' (toogleModal, modalActive) -->
       <Modal @close="toggleModal1" :modalActive="modalActive1">
           <div class="modal-content">
             <h4 class="modal-title">CV</h4>
@@ -41,7 +42,7 @@
             <h4 class="modal-title">Cahier des charges</h4>
             <p>Date de création le 29/10/2023</p>
             <p>Technologies utilisées : Open Office</p>
-            <a href="@/assets/creations/cahier des charges.pdf" target="_blank"><p>Visiter le projet !</p></a>
+            <a href="https://drive.google.com/file/d/1EuI44qdvKfKr4L9TLmwpkVqrvnC9hQKc/view?usp=drive_link" target="_blank"><p>Visiter le projet !</p></a>
             
           </div>
         </Modal>

@@ -1,6 +1,8 @@
 <template>
 <div class="app" ref="app">
 
+<!-- Appel des composants "Header" et "Footer" pour qu'ils soient dans toutes les pages. RouterView pour la page en cours. -->
+
 <Header />
 <Router-View ref="routerView"/>
 <Footer />
